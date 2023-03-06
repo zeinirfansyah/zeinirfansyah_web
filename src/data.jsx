@@ -54,7 +54,7 @@ const projects = [
   {
     id_projects: 1,
     name_projects: "SIPERPUS",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/siperpus",
     img_projects: "../../assets/images/x.png",
     description_projects:
       "Sistem informasi perpustakaan SMKS Daarul Abroor Tasikmalaya",
@@ -62,7 +62,7 @@ const projects = [
   {
     id_projects: 2,
     name_projects: "Rest API Aplikasi Wisata",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/wisata_RestAPI",
     img_projects: "../../assets/images/x.png",
     description_projects:
       "Rest API fitur CRUD untuk aplikasi pemetaan objek wisata",
@@ -70,14 +70,14 @@ const projects = [
   {
     id_projects: 3,
     name_projects: "Online Course Website",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/online_course_v2",
     img_projects: "../../assets/images/x.png",
     description_projects: "Website untuk belajar online berbasis video.",
   },
   {
     id_projects: 4,
     name_projects: "Chat Bot Discord",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/discord_chat_bot",
     img_projects: "../../assets/images/x.png",
     description_projects:
       "Chat bot discord untuk mengirimkan pesan ke server discord.",
@@ -85,35 +85,28 @@ const projects = [
   {
     id_projects: 5,
     name_projects: "Music Bot Discord",
-    url_projects: "",
+    url_projects: "music_bot_discord",
     img_projects: "../../assets/images/x.png",
     description_projects: "Music bot discord.",
   },
   {
     id_projects: 6,
-    name_projects: "Kulit Kerang Ajaib",
-    url_projects: "",
-    img_projects: "../../assets/images/x.png",
-    description_projects: "Aplikasi text to speech sederhana.",
-  },
-  {
-    id_projects: 7,
     name_projects: "Aplikasi Pemetaan Objek Wisata",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/wisata_lbs",
     img_projects: "../../assets/images/x.png",
     description_projects: "Aplikasi wisata berbasis android.",
   },
   {
-    id_projects: 8,
+    id_projects: 7,
     name_projects: "Tupay - Tuition Payment",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/tupay",
     img_projects: "../../assets/images/x.png",
     description_projects: "Aplikasi pembayaran uang sekolah berbasis desktop.",
   },
   {
-    id_projects: 9,
+    id_projects: 8,
     name_projects: "Uangku",
-    url_projects: "",
+    url_projects: "https://github.com/zeinirfansyah/uangku",
     img_projects: "../../assets/images/x.png",
     description_projects: "Aplikasi pengelolaan keuangan berbasis web.",
   },

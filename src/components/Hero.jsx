@@ -38,16 +38,28 @@ const Hero = () => {
             </p>
           </div>
           <div className="hero__socmed mb-4 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
-            <a href="" target="_blank" rel="noreferrer">
+            <a href="https://dsc.gg/mindmesh" target="_blank" rel="noreferrer">
               <img className="logo-socmed" src={discord1} />
             </a>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://github.com/zeinirfansyah"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="logo-socmed" src={github1} />
             </a>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.linkedin.com/in/zein-irfansyah/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="logo-socmed" src={linkedin1} />
             </a>
-            <a href="" target="_blank" rel="noreferrer">
+            <a
+              href="https://www.instagram.com/zeinirfansyah"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img className="logo-socmed" src={instagram1} />
             </a>
           </div>
@@ -60,6 +72,13 @@ const Hero = () => {
                   <div className="col text-center text-lg-start">
                     <h4 className="mb-3">Portfolio</h4>
                     <CarouselPortfolio />
+                    <a
+                      href="https://github.com/zeinirfansyah"
+                      target="_blank"
+                      style={{ color: "#f700ff" }}
+                    >
+                      More on Github
+                    </a>
                   </div>
                 </div>
               </div>
@@ -75,21 +94,15 @@ const Hero = () => {
                 </div>
                 <div className="row techstack__item">
                   <div className="col d-flex justify-content-center justify-content-lg-start">
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img className="logo-techstack" src={reactimg} />
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img className="logo-techstack" src={javascriptimg} />
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img className="logo-techstack" src={expressjsimg} />
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img className="logo-techstack" src={nodejsimg} />
-                    </a>
-                    <a href="" target="_blank" rel="noreferrer">
-                      <img className="logo-techstack" src={phpimg} />
-                    </a>
+                    <img className="logo-techstack" src={reactimg} />
+
+                    <img className="logo-techstack" src={javascriptimg} />
+
+                    <img className="logo-techstack" src={expressjsimg} />
+
+                    <img className="logo-techstack" src={nodejsimg} />
+
+                    <img className="logo-techstack" src={phpimg} />
                   </div>
                 </div>
               </div>
