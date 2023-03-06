@@ -7,17 +7,17 @@ const Experiences = () => {
       <div className="container">
         <div className="row mb-3">
           <div className="col-md-12">
-            <h2 className="section-title">Experiences</h2>
+            <h3 className="section-title">Experiences</h3>
           </div>
         </div>
         <div className="row">
           {data.experiences.map((experience) => (
             <div className="card bg-dark my-1">
               <div className="card-body">
-                <h5 className="card-title">{experience.title_experiences}</h5>
-                <h6 className="card-subtitle mb-2 text-muted">
-                  SMKS Daarul Abroor
-                </h6>
+                <h6 className="card-title">{experience.title_experiences}</h6>
+                <p className="card-subtitle mb-2 text-muted">
+                  {experience.company_experiences}
+                </p>
                 <p className="card-text d-none d-lg-block">
                   {experience.description_experiences}
                 </p>

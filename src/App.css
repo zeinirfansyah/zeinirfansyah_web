@@ -2,6 +2,16 @@ a {
   text-decoration: none !important;
 }
 
+.card {
+  border: 1px solid !important;
+  border-image: linear-gradient(to right, #7b00ff, #f700ff) 1 !important;
+}
+
+.carouselPortoImg {
+  border-radius: 20px;
+  box-shadow: 0 0 10px 0 #00000080;
+}
+
 .btn-outline-1 {
   color: #fff;
   padding: 5px 16px;
@@ -105,20 +115,6 @@ a {
     animation-name: foto;
     animation-iteration-count: infinite;
     animation-duration: 0.5s;
-  }
-
-  .img-line2 {
-    position: relative;
-    top: 100px;
-    display: block;
-    width: 300px;
-    height: 2px;
-    background-color: #fff;
-  }
-
-  .logo-socmed {
-    position: relative;
-    top: 7rem;
   }
 
   .role-text {

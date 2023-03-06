@@ -50,6 +50,75 @@ const profile = {
   ],
 };
 
+const projects = [
+  {
+    id_projects: 1,
+    name_projects: "SIPERPUS",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects:
+      "Sistem informasi perpustakaan SMKS Daarul Abroor Tasikmalaya",
+  },
+  {
+    id_projects: 2,
+    name_projects: "Rest API Aplikasi Wisata",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects:
+      "Rest API fitur CRUD untuk aplikasi pemetaan objek wisata",
+  },
+  {
+    id_projects: 3,
+    name_projects: "Online Course Website",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Website untuk belajar online berbasis video.",
+  },
+  {
+    id_projects: 4,
+    name_projects: "Chat Bot Discord",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects:
+      "Chat bot discord untuk mengirimkan pesan ke server discord.",
+  },
+  {
+    id_projects: 5,
+    name_projects: "Music Bot Discord",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Music bot discord.",
+  },
+  {
+    id_projects: 6,
+    name_projects: "Kulit Kerang Ajaib",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Aplikasi text to speech sederhana.",
+  },
+  {
+    id_projects: 7,
+    name_projects: "Aplikasi Pemetaan Objek Wisata",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Aplikasi wisata berbasis android.",
+  },
+  {
+    id_projects: 8,
+    name_projects: "Tupay - Tuition Payment",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Aplikasi pembayaran uang sekolah berbasis desktop.",
+  },
+  {
+    id_projects: 9,
+    name_projects: "Uangku",
+    url_projects: "",
+    img_projects: "../../assets/images/x.png",
+    description_projects: "Aplikasi pengelolaan keuangan berbasis web.",
+  },
+];
+
 const skills = [
   {
     id_skills: 1,
@@ -190,4 +259,11 @@ const certificates = [
   },
 ];
 
-export default { profile, skills, experiences, educations, certificates };
+export default {
+  profile,
+  projects,
+  skills,
+  experiences,
+  educations,
+  certificates,
+};

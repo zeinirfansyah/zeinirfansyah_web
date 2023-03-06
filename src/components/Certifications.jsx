@@ -12,7 +12,7 @@ const Certifications = () => {
       <div className="row">
         <div className="col">
           {data.certificates.map((certification) => (
-            <div className="card bg-dark my-2 ">
+            <div className="card bg-dark my-2">
               <div className="card-body">
                 <h6 className="card-title">
                   {certification.title_certificates}

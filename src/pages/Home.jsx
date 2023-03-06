@@ -8,7 +8,11 @@ const Home = () => {
   return (
     <>
       <div className="container">
-        <Hero />
+        <div className="row">
+          <div className="col">
+            <Hero />
+          </div>
+        </div>
         <hr />
         <div className="row">
           <div className="col-12 col-md-6">

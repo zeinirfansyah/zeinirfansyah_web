@@ -11,10 +11,11 @@ import javascriptimg from "../assets/images/js-img.svg";
 import nodejsimg from "../assets/images/nodejs-img.svg";
 import expressjsimg from "../assets/images/expressjs-img.svg";
 import phpimg from "../assets/images/php-img.svg";
+import CarouselPortfolio from "./carousel/CarouselPortfolio";
 
 const Hero = () => {
   return (
-    <div className="hero">
+    <div className="hero mb-5 h-100">
       <div className="row">
         <div className="col-lg-6">
           <span className="img-line1"></span>
@@ -23,8 +24,20 @@ const Hero = () => {
             <img className="foto foto2" src={foto2} alt="" />
             <img className="foto foto3" src={foto3} alt="" />
           </div>
-          <span className="img-line2"></span>
-          <div className="hero__socmed mt-4 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
+          <div className="hero__text text-center text-lg-start">
+            <div className="role-text mb-2 mb-lg-3">
+              Software
+              <span className="role"> Engineer</span>
+            </div>
+            <h1>Hi, I am Zein Irfansyah</h1>
+            <p>
+              I am a final year student at Informatic Departement of Universitas
+              Teknologi Yogyakarta with 3.83 GPA and also a software engineer.
+              My passions lies in frontend and backend web development, realism
+              sketch art, and music. Nice to meet you!
+            </p>
+          </div>
+          <div className="hero__socmed mb-4 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
             <a href="" target="_blank" rel="noreferrer">
               <img className="logo-socmed" src={discord1} />
             </a>
@@ -40,43 +53,45 @@ const Hero = () => {
           </div>
         </div>
         <div className="col-lg-6">
-          <div className="hero__text text-center text-lg-start">
-            <div className="role-text mb-2 mb-lg-3">
-              Software
-              <span className="role"> Engineer</span>
-              <span className="role-line"></span>
-            </div>
-            <h1>Hi, I am Zein Irfansyah</h1>
-            <p>
-              I am a final year student at Informatic Departement of Universitas
-              Teknologi Yogyakarta with 3.83 GPA and also a software engineer.
-              My passions lies in frontend and backend web development, realism
-              sketch art, and music. Nice to meet you!
-            </p>
-          </div>
-          <div className="hero__techstack">
-            <div className="row techstack__item mt-5 mb-2">
-              <div className="col text-center text-lg-start">
-                <h4>Tech Stack</h4>
+          <div className="row">
+            <div className="col">
+              <div className="portfolio">
+                <div className="row portfolio__item mt-3 mb-2">
+                  <div className="col text-center text-lg-start">
+                    <h4 className="mb-3">Portfolio</h4>
+                    <CarouselPortfolio />
+                  </div>
+                </div>
               </div>
             </div>
-            <div className="row techstack__item">
-              <div className="col d-flex justify-content-center justify-content-lg-start">
-                <a href="" target="_blank" rel="noreferrer">
-                  <img className="logo-techstack" src={reactimg} />
-                </a>
-                <a href="" target="_blank" rel="noreferrer">
-                  <img className="logo-techstack" src={javascriptimg} />
-                </a>
-                <a href="" target="_blank" rel="noreferrer">
-                  <img className="logo-techstack" src={expressjsimg} />
-                </a>
-                <a href="" target="_blank" rel="noreferrer">
-                  <img className="logo-techstack" src={nodejsimg} />
-                </a>
-                <a href="" target="_blank" rel="noreferrer">
-                  <img className="logo-techstack" src={phpimg} />
-                </a>
+          </div>
+          <div className="row">
+            <div className="col">
+              <div className="hero__techstack">
+                <div className="row techstack__item mt-5 mb-2">
+                  <div className="col text-center text-lg-start">
+                    <h4>Tech Stacks Focus</h4>
+                  </div>
+                </div>
+                <div className="row techstack__item">
+                  <div className="col d-flex justify-content-center justify-content-lg-start">
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img className="logo-techstack" src={reactimg} />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img className="logo-techstack" src={javascriptimg} />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img className="logo-techstack" src={expressjsimg} />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img className="logo-techstack" src={nodejsimg} />
+                    </a>
+                    <a href="" target="_blank" rel="noreferrer">
+                      <img className="logo-techstack" src={phpimg} />
+                    </a>
+                  </div>
+                </div>
               </div>
             </div>
           </div>

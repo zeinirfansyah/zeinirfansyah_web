@@ -12,11 +12,11 @@ const Educations = () => {
         </div>
         <div className="row">
           {data.educations.map((education) => (
-            <div className="card bg-dark my-1">
+            <div className="card bg-dark my-1 border-warna">
               <div className="card-body">
                 <div className="row">
                   <div className="col-12 col-lg-8">
-                    <h5 className="card-title">{education.title_educations}</h5>
+                    <h6 className="card-title">{education.title_educations}</h6>
                   </div>
                   <div className="col ">
                     <small className="text-muted d-none d-lg-flex justify-content-start justify-content-lg-end mb-2 mb-lg-0">
