@@ -186,7 +186,7 @@ const experiences = [
     id_experiences: 1,
     title_experiences: "Web Developer",
     company_experiences: "SMKS Daarul Abroor Tasikmalaya",
-    date_experiences: "April 20212 - February 2023",
+    date_experiences: "April 2022 - February 2023",
     description_experiences:
       "I am working as a web developer in SMKS Daarul Abroor. I am responsible for developing the library management system of SMKS Daarul Abroor Tasikmalaya using PHP and MySQL.",
   },
