@@ -34,7 +34,7 @@ const Hero = () => {
               I am a final year student at Informatic Departement of Universitas
               Teknologi Yogyakarta with 3.83 GPA and also a software engineer.
               My passions lies in frontend and backend web development, realism
-              sketch art, and music. Nice to meet you!
+              sketch art, and music.It's pleasure to meet you!
             </p>
           </div>
           <div className="hero__socmed mb-4 mt-lg-0 d-flex justify-content-center justify-content-lg-start">
