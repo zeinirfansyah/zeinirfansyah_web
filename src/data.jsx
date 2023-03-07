@@ -184,6 +184,15 @@ const skills = [
 const experiences = [
   {
     id_experiences: 1,
+    title_experiences:
+      "Project-Based Intern : Software Engineer Virtual Internship Experience ID/X Partners",
+    company_experiences: "ID/X Partners",
+    date_experiences: "March 2023 - Now",
+    description_experiences:
+      "Working various task related with the activity of Software Engineer from ID/X Partners, such as database management with PostgreSQL, team collaboration with gitlab, implement backend software development like build simple CRUD application with PostgreSQL & .NET Core.",
+  },
+  {
+    id_experiences: 2,
     title_experiences: "Web Developer",
     company_experiences: "SMKS Daarul Abroor Tasikmalaya",
     date_experiences: "April 2022 - February 2023",
@@ -191,7 +200,7 @@ const experiences = [
       "I am working as a web developer in SMKS Daarul Abroor. I am responsible for developing the library management system of SMKS Daarul Abroor Tasikmalaya using PHP and MySQL.",
   },
   {
-    id_experiences: 2,
+    id_experiences: 3,
     title_experiences: "Commite of KSPM Goes To School",
     company_experiences: "Kelompok Studi Pasar Modal UTY",
     date_experiences: "March 2022 - April 2022",

@@ -7,7 +7,7 @@ const Header = () => {
   };
 
   return (
-    <header className="shadow">
+    <header className="shadow shadow-light">
       <div className="container">
         <nav className="navbar navbar-expand-lg navbar-dark">
           <a href="/" className="navbar-brand">
